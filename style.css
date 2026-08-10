@@ -247,7 +247,7 @@ border-top: 1px solid#333;
 }
 
 #page2-left p{
-  font-size: 0.9vw;
+  font-size: 1vw;
 }
 
 #page2-left h5{
@@ -265,10 +265,11 @@ border-top: 1px solid#333;
 
 .right-elem{
   position: relative;
-  background-color: red;
+  /* background-color: red; */
   color: white;
       padding-top: 2vw;
     padding-bottom: 6.5vw;
+    border-bottom: 1px solid #333;
   }
 
 .right-elem img{
@@ -276,9 +277,9 @@ border-top: 1px solid#333;
     width: 7vw;
     border-radius: 50%;
     object-fit: cover;
-    opacity: ;
+    opacity: 0;
     position: absolute;
-    scale: ;
+    
 }
 
 .right-elem h2{
