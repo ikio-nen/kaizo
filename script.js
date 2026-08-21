@@ -47,7 +47,7 @@ function navAnimation() {
         }, "-=0.2");
     });
 } 
- navAnimation();
+//  navAnimation();
 
 function page2animate (){
     
@@ -73,10 +73,10 @@ rightElems.forEach(function(elem){
     elem.addEventListener("mousemove",function(dets){ 
         gsap.to(elem.childNodes[3],{
             x: dets.x - elem.getBoundingClientRect().x - 50,
-            y: dets.y - elem.getBoundingClientRect().y - 150
+            y: dets.y - elem.getBoundingClientRect().y - 100
         })
     })
 })
 }
 
-page2animate();
+// page2animate();
